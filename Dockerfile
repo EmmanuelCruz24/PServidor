@@ -3,7 +3,7 @@
 FROM node:20-alpine
 
 # Establecer el directorio de trabajo dentro del contenedor
-WORKDIR /Users/CruzN/PServidor
+WORKDIR /app
 
 # Copiar el package.json
 COPY package*.json ./
