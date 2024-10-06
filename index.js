@@ -48,7 +48,7 @@ server.listen(port, hostname, () => {
 
 // Inicio del Servidor Asincronimo
 
-
+/*
 const http = require('http');
 const fs = require('fs');
 
@@ -72,4 +72,18 @@ server.listen(port, hostname, () => {
   console.log(`Servidor corriendo en http://${hostname}:${port}/`);
 });
 
+*/
 
+
+//Codigo para mi docker file 
+const express = require('express');
+const app = express();
+const PORT = 3000;
+
+app.get('/', (req, res) => {
+    res.send('¡Hola, mundo!, La conexion funciona con dockerfile');
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Servidor corriendo en http://127.0.0.1:${PORT}/`);
+});
