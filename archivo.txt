@@ -7,3 +7,4 @@ Hola! Se ha logrado la lectura de este documento!
 
 Comprobacion del servidor sincronimo-----3 Octubre 2024
 Comprobacion del servidor asincronimo----3 Octubre 2024
+Comprobacion del dockerfile--------------5 Octubre 2024
